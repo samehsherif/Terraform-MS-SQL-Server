@@ -21,7 +21,11 @@ This project demonstrates deploying MS SQL Server using Terraform.
 ```
 ## Execution
 
+## After Pulling
+
 ```
+
+
 terraform fmt
 terraform init
 terraform validate
