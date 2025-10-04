@@ -9,14 +9,16 @@ This project demonstrates deploying MS SQL Server using Terraform.
 ```
 .
 ├── main.tf
+├── providers.tf
 ├── variables.tf
 ├── outputs.tf
-├── providers.tf
 └── modules
     ├── resource_group
-    │   └── main.tf
+    │   ├── main.tf
+    │   └── variables.tf
     └── sql
-        └── main.tf
+        ├── main.tf
+        └── variables.tf
 
 ```
 ## Execution
