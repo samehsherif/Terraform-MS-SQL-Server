@@ -18,6 +18,12 @@ variable "sql_admin_user" {
   default = "sqladminuser"
 }
 
+variable "sql_admin_password" {
+  type      = string
+  sensitive = true
+  default   = "P@ssw0rd12345!" # Note: In production, avoid hardcoding sensitive values. Use secure methods to manage secrets.
+}
+
 variable "sql_db_name" {
   type    = string
   default = "demodb"
